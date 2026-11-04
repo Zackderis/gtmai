@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+# build output: attach these to a GitHub Release instead of committing them
+dist/
+platforms/_build/
