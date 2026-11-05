@@ -41,22 +41,25 @@ One campaign, 26 October to 2 November 2026: 127 leads identified, 20 conversati
   <img src="docs/images/results.png" alt="Workflow steps beside the results: 127 leads, 57 qualified, 50 researched, 50 decks, 30 enrolled, 20 conversations, 18 calls turned into decks, 11 proposals, 6 deals, 24,000 euros closed" width="760">
 </p>
 
-These are Zack's own numbers, from selling his own service. Your results depend on your offer, market and follow-up.
+These are Zack's own numbers, from selling ZDTS services. Your results depend on your offer, market and follow-up.
 
 ## How it works
 
 ```mermaid
-flowchart LR
-    A[Install the skill] --> B[Teach it your business]
-    B --> C[Connect Apollo, Gamma, Fireflies]
-    C --> D[Find look-alike companies]
-    D --> E[Pick the top 5]
-    E --> F[Find verified decision-makers]
-    F --> G[Build a Gamma deck for each]
-    G --> H[Load the Apollo sequence]
-    H --> I{You press Activate}
-    I --> J[Take the call]
-    J --> K[Closing deck and email]
+flowchart TD
+    subgraph setup["1. Set up"]
+        direction LR
+        A[Install the skill] --> B[Teach it your business] --> C[Connect Apollo, Gamma, Fireflies]
+    end
+    subgraph build["2. Build the campaign"]
+        direction LR
+        D[Find look-alike companies] --> E[Pick the top 5] --> F[Find verified decision-makers] --> G[Build a Gamma deck for each]
+    end
+    subgraph close["3. Launch and close"]
+        direction LR
+        H[Load the Apollo sequence] --> I{You press Activate} --> J[Take the call] --> K[Closing deck and email]
+    end
+    setup --> build --> close
 ```
 
 | Stage | What GTMAI does | What you do |
