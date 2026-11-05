@@ -1,4 +1,4 @@
-# GTMAI for Microsoft 365 Copilot: install guide ({VERSION})
+# GTMAI for Microsoft 365 Copilot: install guide
 
 GTMAI runs as an **Agent Skill** inside a Microsoft 365 Copilot agent.
 
@@ -14,7 +14,7 @@ GTMAI runs as an **Agent Skill** inside a Microsoft 365 Copilot agent.
 ## Create the agent and add the skill
 1. Go to **m365.cloud.microsoft**, then **Agents & Skills → New agent**.
 2. Name it **GTMAI**. For the instructions, use: *"Follow the GTMAI skill. Start with Stage 0 when the user says start GTMAI."*
-3. On the **Configure** tab, open **Skills → Add**, and upload `GTMAI for Microsoft 365 Copilot.zip`. Upload the whole zip, not SKILL.md on its own.
+3. On the **Configure** tab, open **Skills → Add**, and upload `gtmai-copilot.zip`. Upload the whole zip, not SKILL.md on its own.
 4. Switch on **web search** (web grounding) for the agent.
 5. Test it on the **Try it** tab, then **Create**.
 
@@ -38,7 +38,7 @@ Type **done** anyway when GTMAI asks. It switches that tool to **manual mode**:
 ## Free Copilot (personal Microsoft account): not recommended
 Free Copilot has no Agents or Skills, so GTMAI can only be attached to a chat as a file. Tested 2 Nov 2026:
 1. **Attaching fails until OneDrive is set up.** Copilot saves attachments to OneDrive, so open **onedrive.live.com** and sign in once first. Otherwise every upload shows "Unexpected error occurred".
-2. Attach `GTMAI for Microsoft 365 Copilot - all-in-one.md` and type **Follow this file exactly. start GTMAI**. It starts the welcome.
+2. Attach `gtmai-copilot-all-in-one.md` and type **Follow this file exactly. start GTMAI**. It starts the welcome.
 3. **It then hits free Copilot's daily limit after one reply.** The file is too big for the free allowance, so a campaign can't actually run. Use Claude, ChatGPT, Gemini or Grok, or a Microsoft 365 Copilot work account.
 
 ## For developers: GitHub Copilot

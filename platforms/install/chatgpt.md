@@ -1,4 +1,4 @@
-# GTMAI for ChatGPT: install guide ({VERSION})
+# GTMAI for ChatGPT: install guide
 
 GTMAI runs as a **skill** inside ChatGPT. It uses three official ChatGPT plugins: **Apollo.io**, **Gamma** and **Fireflies**.
 
@@ -8,7 +8,7 @@ GTMAI runs as a **skill** inside ChatGPT. It uses three official ChatGPT plugins
 
 ## Option A: upload the skill
 1. In ChatGPT (web or desktop), click **Plugins** in the sidebar, then the **Skills** tab.
-2. Click **Create → Upload from your computer**, and choose `GTMAI for ChatGPT.zip`.
+2. Click **Create → Upload from your computer**, and choose `gtmai-chatgpt.zip`.
 3. Wait for the scan to show **Available**. If it says **Needs Review**, your workspace admin approves it.
 
 ## Option B: install the plugin (once GTMAI is listed in the Plugin Directory)

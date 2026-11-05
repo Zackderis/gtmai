@@ -1,4 +1,4 @@
-# GTMAI for Gemini: install guide ({VERSION})
+# GTMAI for Gemini: install guide
 
 GTMAI runs as a **skill** in the Gemini app (gemini.google.com). It connects to **Apollo.io**, **Gamma** and **Fireflies** as **custom apps**, or runs them in manual mode.
 
@@ -12,7 +12,7 @@ GTMAI runs as a **skill** in the Gemini app (gemini.google.com). It connects to 
 
 ## Install the skill (desktop web)
 1. In Gemini on the web, open **Customise** in the sidebar, then the **Skills** tab → **Create → Upload**.
-2. Choose `GTMAI for Gemini.zip`, then click **Continue**. Gemini fills in the name, description, instructions and files.
+2. Choose `gtmai-gemini.zip`, then click **Continue**. Gemini fills in the name, description, instructions and files.
 3. Click **Save skill**.
 4. **Updating later:** on the skill's **⋮ → Replace skill**, upload the new zip, then open **⋮** again and click **Activate**. Replacing switches the skill off.
 

@@ -1,4 +1,4 @@
-# GTMAI for Grok: install guide ({VERSION})
+# GTMAI for Grok: install guide
 
 GTMAI runs as a **skill** in Grok (grok.com, iOS and Android). It uses **Gamma** (a built-in Grok connector) plus **Apollo.io** and **Fireflies** (custom connectors).
 
@@ -7,8 +7,8 @@ GTMAI runs as a **skill** in Grok (grok.com, iOS and Android). It uses **Gamma**
 - Accounts with Apollo.io, Gamma and Fireflies.
 
 ## Install the skill
-1. Go to **grok.com/skills** and upload `GTMAI for Grok.zip`.
-2. **If the upload isn't accepted:** start a new chat, attach `GTMAI for Grok - all-in-one.md`, and say: *"Save this as a skill called GTMAI."*
+1. Go to **grok.com/skills** and upload `gtmai-grok.zip`.
+2. **If the upload isn't accepted:** start a new chat, attach `gtmai-grok-all-in-one.md`, and say: *"Save this as a skill called GTMAI."*
    - Grok hasn't published its skill format.
    - The all-in-one file holds the entire skill in one document, so nothing depends on Grok loading the extra reference files.
 
