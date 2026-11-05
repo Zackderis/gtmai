@@ -204,6 +204,7 @@ def build(key):
     open(os.path.join(OUT, f"GTMAI for {P['label']} - INSTALL.md"), "w").write(install)
     if P.get("all_in_one"):
         shutil.copy(os.path.join(BUILD, key, "GTMAI-all-in-one.md"), os.path.join(OUT, f"GTMAI for {P['label']} - all-in-one.md"))
+        shutil.copy(os.path.join(BUILD, key, "GTMAI-all-in-one.md"), os.path.join(OUT, f"gtmai-{key}-all-in-one.md"))
     if P.get("plugin_package"):
         # skills-only plugin layout for OpenAI's Plugin Directory (the portal converts a Claude-style manifest)
         manifest = {"name": "gtmai", "version": "12.0.0",
