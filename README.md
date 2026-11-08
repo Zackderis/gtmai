@@ -210,4 +210,6 @@ Built by **[Zack Deris](https://zackderis.com)**, AI Sales Systems Consultant. I
 
 [LinkedIn](https://www.linkedin.com/in/zdnft) · [YouTube](https://www.youtube.com/@zackderis) · [X](https://x.com/zackydzz)
 
+More free skills: [OutboundOS](https://github.com/Zackderis/outboundos) · [AI SDR](https://github.com/Zackderis/ai-sdr) · [Gamma Prompt Library](https://github.com/Zackderis/gamma-prompt-library)
+
 Free for your own business and your clients, not for resale or redistribution. See [LICENSE](LICENSE). The Apollo, Gamma and Fireflies links above are partner links, so Zack may earn a commission or credit if you sign up through them, at no cost to you. GTMAI isn't affiliated with or endorsed by Anthropic, OpenAI, Google, xAI or Microsoft.
